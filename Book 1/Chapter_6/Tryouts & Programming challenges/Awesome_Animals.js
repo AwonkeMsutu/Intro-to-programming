@@ -9,6 +9,10 @@ for(var i = 0; i < 4; i++)
 {
     // 3. This prints the word "Awesome " followed by the animal at the current position [i]
     //    It doesn't change the list, it just "shouts" the result into the console.
-    console.log("Awesome " + Animals[i]);
+    Animals[i] = "Awesome " + Animals[i]
+    
 }
+console.log(Animals);
 //How to ensure that values are reassigned to original array in order to modify and not just print "Awesome"??
+
+
