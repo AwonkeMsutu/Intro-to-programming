@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='chap16.css'>
+
+</head>
+
+<body>
+    <div id="story"></div>
+    <div id="siteFooter">
+        <div id="question"></div>
+        <div id="answer">Enter your answer:
+            <input type="text" id="yourAnswer" />
+            <button type="button" id="submit">Go!</button>
+        </div>
+    </div>
+    <!-- everything under here is hidden using CSS so that we can display it later using JavaScript -->
+    <div class="storyPart" id="answer01">
+        <p>You are a deep-sea diver known as "The Iron Lung." While repairing your submarine, The Rusty Anchor, you receive a ping on your sonar: "Iron Lung,<p>
+             <p>we've located the S.S. Glimmer. It sank with a chest of golden artifacts, but a massive storm is moving in. We need you to dive now before the silt</p> 
+            <p>covers it forever." You were supposed to attend your best friend's birthday party tonight, but this haul could pay off your ship's debt.
+              What do you do? Dive for gold or go to the party?</p>
+        <div class="storyPart" id="answer02" ></div>
+              <p>Please answer Dive or Party.?</p>
+    </div>
+    <div class="storyPart" id="answer02">
+        <p>Answer Yes when you're ready!</p>
+    </div>
+    <div class="storyPart" id="err0">
+        <p>Please answer yes or no.</p>
+    </div>
+   <div class="storyPart" id="err0">
+    <p>Please answer Dive or Party.</p>
+</div>
+
+<div class="storyPart" id="answer11">
+    <p>Fortune favors the bold! You plunge into the dark, icy water. The descent is silent and beautiful.</p>
+    <p>After forty minutes of searching the murky floor, you find the S.S. Glimmer. It’s beautiful, but as you approach the hull, you feel a tug on your oxygen line.</p>
+    <p>You look back and see a giant octopus has tangled itself in your air hose. It isn't attacking, but its weight is crimping the tube. You're losing air fast.</p>
+    <p>You have a choice: try to stay calm and untangle the hose, or cut the heavy treasure chest loose to swim to the surface faster. What will you do?</p>
+</div>
+
+<div class="storyPart" id="answer12">
+    <p>You decide to go to the party. The pizza is great, and your friend is happy you showed up.</p>
+    <p>However, the next morning you read the news: someone else found the S.S. Glimmer and is now a billionaire. At least you got a goody bag and some pepperoni pizza!</p>
+</div>
+
+<div class="storyPart" id="err1">
+    <p>Please answer Stay Calm or Swim Up.</p>
+</div>
+
+<div class="storyPart" id="answer21">
+    <p>You decide to stay calm and work the hose free. It's a gamble, but your steady hands prevail! The octopus swims away, and you manage to haul the chest into your sub just as your oxygen tank hits zero.</p>
+    <p>Inside the chest, you don't just find gold; you find an ancient map to an even bigger city of pearls! You're not just rich; you're a legend.</p>
+</div>
+
+<div class="storyPart" id="answer22">
+    <p>You drop the chest and kick for the surface. You make it up safely, but you're empty-handed.</p>
+    <p>When you get back to the docks, your boss tells you that the octopus was a trained guard. He only tangles the hose to test a diver's courage. If you had stayed, he would have helped you carry the gold.</p>
+    <p>He fires you for being a coward. You start walking home, soaking wet and broke.</p>
+</div>
+
+<div class="storyPart" id="err2">
+    <p>The end of the journey. Refresh to try again!</p>
+</div>
+    </div>
+    <script src='chap16.js'></script>
+</body>
+
+</html>
